@@ -4,8 +4,6 @@ def my_print_function():  # No parameters
     print("A")
     print("function")
 # Function ended
-
-
 # Calling the function in the program multiple times
 def minimum(first, second):
     if (first < second):
