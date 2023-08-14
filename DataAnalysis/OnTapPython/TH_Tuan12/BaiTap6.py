@@ -1,3 +1,4 @@
+#1d
 def calculate(operation, num1, num2):
     if operation == "+":
         return num1 + num2
@@ -14,7 +15,7 @@ def calculate(operation, num1, num2):
         return "Phép tính không hợp lệ"
 
 # Nhập phép tính và hai số từ bàn phím
-operation = input("Nhập phép tính (+, -, *, /): ")
+operation = input("Chon phép tính (+, -, *, /): ")
 number1 = float(input("Nhập số thứ nhất: "))
 number2 = float(input("Nhập số thứ hai: "))
 

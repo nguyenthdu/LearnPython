@@ -1,9 +1,9 @@
 # Kiểu dữ liệu số
-x = 10 #Python hiểu đây là số nguyên
-y = 10.5 #Python hiểu đây là số thực
-z = 5 #Python hiểu đây là số nguyên
-t = x + z #Python hiểu t là số nguyên
-t = x + y #Python hiểu t là số thực
+x1 = 10 #Python hiểu đây là số nguyên
+y1 = 10.5 #Python hiểu đây là số thực
+z1 = 5 #Python hiểu đây là số nguyên
+t = x1 + z1 #Python hiểu t là số nguyên
+t = x1 + y1 #Python hiểu t là số thực
 # Kết luận
 # số nguyên (+,-,*,/) số nguyên = số nguyên
 # số nguyên (+,-,*,/) số thực = số thực
@@ -20,12 +20,16 @@ y = 0xf400
 u = True # u -> 1
 v = False # v -> 0
 # Kiểu dữ liệu chuỗi
-a = "Hello" # Python hiểu a là kiểu chuỗi
-print(a)
+a1 = "Hello" # Python hiểu a là kiểu chuỗi
+#print(a)
 b = 'World' # Python hiểu b là kiểu chuỗi
-print(b)
+#print(b)
 # Sử dụng \n để xuống dòng
-print("Python programming \n for Data Analysis")
+#print("Python programming \n for Data Analysis")
 # Sử dụng f để hiện thị giá trị
-print(f'Giá trị biến a là: {a}')
-print("Giá trị biến a là:",a)
+#print(f'Giá trị biến a là: {a}')
+#print("Giá trị biến a là:",a)
+print(type(x1))
+print(type(y1))
+print(type(z1))
+print(type(a1))
