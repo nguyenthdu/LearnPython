@@ -126,7 +126,7 @@ steve = Employee(3789, 2500)
 print(steve._Employee__salary)  # truy cập private property
 """
 TODO: Information Hiding trong Python
-Information hiding là một khái niệm thiết yếu trong OOP. Nói một cách đơn giản thì để đảm bảo rằng dữ liệu được truy cập và sử dụng đúng mục đích và an toàn (bảo mật) thì chúng ta sẽ giấu đi các hoạt động bên trong class và chỉ cung cấp một giao diện (interface) mà qua đó thế giới bên ngoài có thể tương tác với class mà không cần biết điều gì đang xảy ra bên trong.
+Information hiding là một khái niệm thiết yếu trong oop. Nói một cách đơn giản thì để đảm bảo rằng dữ liệu được truy cập và sử dụng đúng mục đích và an toàn (bảo mật) thì chúng ta sẽ giấu đi các hoạt động bên trong class và chỉ cung cấp một giao diện (interface) mà qua đó thế giới bên ngoài có thể tương tác với class mà không cần biết điều gì đang xảy ra bên trong.
 
 Data hiding có thể chia làm 2 phần chính:
 
