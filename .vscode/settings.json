@@ -1,5 +1,5 @@
 {
-    "files.watcherExclude": {
-        "**/target": true
-    }
+    "explorer.fileNesting.enabled": false,
+    "python.terminal.executeInFileDir": true,
+    "code-runner.fileDirectoryAsCwd": true
 }
